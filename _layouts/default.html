@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="de-de">
+
+{% include head.html %}
+
+<body class="compact">
+<div id="box">
+  <article class="page">
+    {% include article-header.html %}
+    {{ content }}
+  </article>
+  {% include box-footer.html %}
+</div>
+
+{% include footer.html %}
+
+</body>
+
+</html>

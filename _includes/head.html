@@ -1,0 +1,19 @@
+<head>
+  <meta charset="UTF-8">
+  <title>{% if title %}{{ title | append: " | " | append:site.title | escape }}{% else %}{% if page.title %}{{ page.title | append: " | " | append:site.title | escape }}{% else %}{{ site.title | escape }}{% endif %}{% endif %}</title>
+  <meta name="description" content="{% if page.excerpt %}{{ page.excerpt | strip_html | strip_newlines | truncate: 160 }}{% else %}{{ site.description }}{% endif %}">
+  <meta name="author" content="Markus Tacker | http://cto.hiv/">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <link rel="canonical" href="{{ page.url | replace:'index.html','' | prepend: site.baseurl | prepend: site.url }}">
+  <link rel="alternate" type="application/rss+xml" title="{{ site.title }}" href="{{ "/feed.xml" | prepend: site.baseurl | prepend: site.url }}">
+  <meta property="og:type" content="non_profit">
+  <meta property="og:title" content="{% if page.title %}{{ page.title | escape }}{% else %}{{ site.title | escape }}{% endif %}">
+  <meta property="og:url" content="{{ page.url | replace:'index.html','' | prepend: site.baseurl | prepend: site.url }}">
+  {% if page.meta_image %}
+  <meta property="og:image" content="{{ page.meta_image | prepend: site.baseurl | prepend: site.url }}">
+  {% endif %}
+  <meta property="og:site_name" content="{{ site.title }}">
+  <meta property="fb:admins" content="1132748678">
+  <link href='http://fonts.googleapis.com/css?family=Varela+Round' rel='stylesheet' type='text/css'>
+  <link rel="stylesheet" href="{{ "/css/main.css" | prepend: site.baseurl }}">
+</head>

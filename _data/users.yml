@@ -1,0 +1,471 @@
+markus-tacker:
+  id: 1
+  email: fddd6de45870862d134673178baa47f6
+  firstname: "Markus"
+  lastname: "Tacker"
+  title: "CTO at dotHIV | The Red Ribbon of the digital age"
+  description: "Markus ist Initiator des WEMO♥F und arbeitet als CTO bei [dotHIV // .hiv domains – The Red Ribbon of the digital age](https://click4life.hiv/). Er ist aktives Mitglied der Netzgemeinde Rhein-Main und kümmert sich u.a. um [diverse Usergroups](http://usergroups.rheinmainrocks.de/)."
+  url: "http://tckr.cc/"
+  has_gravatar: 0
+  twitter: "@coderbyheart"
+  tags: "#Development #dotHIV #futureOfWork"
+fred-beier:
+  id: 111
+  email: 58f2aff1e2aabd3df7a7c902c0ce2721
+  firstname: "Fred"
+  lastname: "Beier"
+  title: "Designer"
+  description: "Fred Beier ist Grafikdesigner und Gründer des Designbüros [ANKER](http://www.anker-design.de/). Seine Kernkompetenz sind die gedruckten Medien. Im Web versucht er, seine Vorlieben aus dem analogen Bereich in die digitale Sprache zu übertragen. Er lebt und gestaltet in Frankfurt am Main."
+  url: "http://www.anker-design.de"
+  has_gravatar: 0
+yevgen-borodkin:
+  id: 272
+  email: f1f7750fa8446308553a475264bf45a9
+  firstname: "Yevgen"
+  lastname: "Borodkin"
+  title: "Trainer und Ausbilder "
+  description: "Instructional Design, visuelle und schriftliche Rhetorik, Pädagogik und Didaktik, Fachkommunikation"
+  url: "http://de.linkedin.com/in/borodkin"
+  has_gravatar: 0
+  tags: "#Presentation #Rhetorik #Storytelling"
+loimi-brautmann:
+  id: 103
+  email: 847883e7dbd57b071df32c85405a7e55
+  firstname: "Loimi"
+  lastname: "Brautmann"
+  title: "Urban_Media_Project"
+  description: "Loimi Brautmann ist Mitgründer des Urban\\_Media\\_Project, das die Schnittstelle von Kommunikation, Stadt, Gesellschaft und Kultur fokussiert. In Eigeninitiative und in Zusammenarbeit mit Städten, Hochschulen und privater Wirtschaft entwickelt das Urban\\_Media\\_Project neue Perspektiven auf Stadt („Entdecke die Stadt. neu“), zeitgenössischen Lifestyle sowie Kultur- und Medienwelt."
+  url: "http://oflovesu.com/"
+  has_gravatar: 0
+annie-buenker:
+  id: 207
+  email: da3eacb36b5e88f34108c66fa94226ce
+  firstname: "Annie"
+  lastname: "Buenker"
+  description: "Annie Buenker koordiniert für das Weltkulturen Museum die interaktive Museumsplattform WELTKULTUREN OPEN LAB. 2009 schloss sie ihr kulturwissenschaftliches Studium in Bonn mit der Magisterarbeit „Connecting the Nodes. Networking for Art, Technology and Culture“ ab, in der sie sich mit der wachsenden Bedeutung von digitaler Kunst und Kultur in Verbindung mit deren virtuellen sowie physischen Communities beschäftigte. Bevor sie nach Frankfurt kam, war sie am ZKM in Karlsruhe für das Ausstellungsprojekt „The Global Contemporary – Art Worlds after 1989“ als wissenschaftliche Stipendiatin tätig."
+  url: "https://www.facebook.com/pages/Weltkulturen-Museum/334257603302617"
+  has_gravatar: 0
+  twitter: "@openlab_wkm"
+rafael-bujotzek:
+  id: 8
+  email: 5bf9a6a4c31406a721f88b945d94ff5d
+  firstname: "Rafael"
+  lastname: "Bujotzek"
+  description: "Rafael Bujotzek ist Redakteur und Reporter beim ZDF heute journal. Täglich im Einsatz, damit Sie kein Testbild im TV sehen müssen... Gleichzeitig ist er seit über zehn Jahren als Geschäftsführer von [glisco internet services](http://www.glisco.de/) in Offenbach am Main tätig und hilft Mittelständlern und Privatleuten bei allen Fragen rund um Computer und das Internet. Rafael bloggt über Computer und Journalismus auf [raffiniert.tv](http://raffiniert.tv/) und twittert unter [@raffisweb](https://twitter.com/raffisweb)."
+  url: "https://www.xing.com/profile/Rafael_Bujotzek"
+  has_gravatar: 1
+  twitter: "@raffisweb"
+dirk-engel:
+  id: 264
+  email: 8fe94fe25aab7673318d3d0675d123d9
+  firstname: "Dirk"
+  lastname: "Engel"
+  title: "Marktforscher und Dozent"
+  description: "Dirk Engel ist Medienforscher und Dozent an der Akademie für Marketing-Kommunikation."
+  url: "http://www.xing.com/profile/Dirk_Engel"
+  has_gravatar: 0
+  twitter: "@engel_dirk"
+  tags: "#zukunft_Medien #fuff #trends"
+gregory-engels:
+  id: 50
+  email: 97fbc9e84c5635e7c2ec6eee167dccac
+  firstname: "Gregory"
+  lastname: "Engels"
+  title: "Pirat"
+  url: "https://www.xing.com/profile/Gregory_Engels"
+  has_gravatar: 1
+  twitter: "@dichter"
+natalie-faerber:
+  id: 214
+  email: 6c6c6d80498b64b7bdf3b5a6809f2c0f
+  firstname: "Natalie"
+  lastname: "Färber"
+  title: "Dipl. Kommunikationsdesigner"
+  description: ""
+  has_gravatar: 0
+julian-flockton:
+  id: 115
+  email: 2846b770b38b07c67751bf3a724a327d
+  firstname: "Julian"
+  lastname: "Flockton"
+  title: "Geschäftsführer Convecto GmbH"
+  description: "Julian Flockton ist seit 14 Jahren Geschäftsführer der Convecto GmbH und berät Unternehmen bei der Markenführung und Change Projekten."
+  url: "https://www.xing.com/profiles/Julian_Flockton"
+  has_gravatar: 0
+  twitter: "@convecto"
+  tags: "#brandbuilding #culturalchange #digitalservices"
+ali-pasha-foroughi:
+  id: 105
+  email: c7cbdbf109500dd049a9841ae716c6de
+  firstname: "Ali Pasha"
+  lastname: "Foroughi"
+  description: "Ali Pasha Foroughi ist freier Software-Entwickler für Enterprise und Web sowie Internet-Technologie-Berater. Seit 2006 beschäftigt er sich mit Web-2.0-Themen und ist seit 2011 Co-Organisator des [Webmontag Frankfurt](http://wmfra.de/)."
+  url: "http://about.me/alipasha"
+  has_gravatar: 0
+  twitter: "@alipasha"
+christa-goede:
+  id: 286
+  email: 9bc60f78b5ebfcc63d77b8d8535dfb96
+  firstname: "Christa"
+  lastname: "Goede"
+  title: "Texterin und Konzeptionerin, Spezialistin für digitale Unternehmensauftritte"
+  description: "Texterin, Konzepterin, Bloggerin, Diplom-Politologin, Social Media-Managerin (FH Köln), Klartextschreiberin, Schachtelsatzallergikerin, Rechtshänderin, Linksdenkerin, Internetbewohnerin, Blümchenliebhaberin, Punkrockhörerin, Motivationsmaschine, Monsterhäklerin, Disziplintierchen, Besserwisserin und Nochbesseresserin mit Sinn für Humor."
+  url: "http://www.christagoede.de"
+  has_gravatar: 1
+  twitter: "@ChristaGoede"
+  tags: "#kommunikation #socialmedia #schokolade"
+mario-hachemer:
+  id: 22
+  email: 3d17c005f1f095ad937007a69ef07447
+  firstname: "Mario"
+  lastname: "Hachemer"
+  description: "Mario Hachemer ist Entwickler und Gründer aus dem Rhein-Main Gebiet und hat es sich zum Ziel gemacht das Rhein-Main Gebiet zu einem attraktiven und bekannten Startup Standort zu machen. Zu diesem Zweck organisiert er Veranstaltungen für Gründer und vermittelt Kontakte in die Szene. Mario twittert unter @Roritharr und pflegt seine Veranstaltungen im [Gründerhub Kalender](http://www.gründerhub.de/)."
+  url: "https://www.xing.com/profile/Mario_Hachemer"
+  has_gravatar: 1
+  twitter: "@roritharr"
+martin-harndt:
+  id: 239
+  email: 281b51d85a1fdc54a09950fbe7b9be33
+  firstname: "Martin"
+  lastname: "Harndt"
+  url: "https://www.xing.com/profile/Martin_Harndt"
+  has_gravatar: 0
+tim-heiler:
+  id: 18
+  email: ea7861580bd400ba18e63a1ecfbf8711
+  firstname: "Tim"
+  lastname: "Heiler"
+  title: "Designbüro Frankfurt GbR"
+  description: "Tim Heiler hat Kommunikationsdesign studiert und arbeitete die letzten Jahre als freiberuflicher Usabilityexperte, Webdesigner und Berater. Zu seinen Kunden zählen Mittelständler, deutsche Konzerne und internationale Startups. Als Mitgründer des Designbüro Frankfurt arbeitet er an der medialen Schnittstelle zwischen klassischem Grafik-, Motion- und Interaktionsdesign für Wirtschaftsunternehmen und hält regelmäßig Vorträge und Workshops an deutschen Hochschulen."
+  url: "http://www.designbuero-frankfurt.de/"
+  has_gravatar: 0
+  twitter: "@timheiler"
+  tags: "#humankind #ux #design"
+falk-heinzelmann:
+  id: 248
+  email: d04d802ff26858b32f49139062f302f4
+  firstname: "Falk"
+  lastname: "Heinzelmann"
+  description: "Geboren, aufgewachsen und lebe in Offenbach. Nach dem Gymnasium und Zivildienst ein Kommunikationsdesign Studium an der Frankfurter Akademie für Kommunikation und Design abgeschlossen und seitdem bei der satis&fy AG in der Kreativabteilung tätig. In der dritten Klasse eine C64 bekommen und seit dem der digitalen Welt verfallen."
+  url: "https://www.facebook.com/digitalretropark"
+  has_gravatar: 0
+lutz-jahnke:
+  id: 9
+  email: 8d3ee4733d4cc8188eb8e78eb1704fd0
+  firstname: "Lutz"
+  lastname: "Jahnke"
+  description: "ich bin designer, musiker & erfinder. aber vor allem liebe ich es mit menschen und dingen zu interaggieren — sie zu manipulieren oder sie zu experimentellen höchstleistungen zu bringen.\r\n\r\nmehr auf: [jahnkedesign.com](http://www.jahnkedesign.com/) | [afip-hessen.de](http://www.afip-hessen.de/) | facebook: [afip.hessen](https://www.facebook.com/afip.hessen)"
+  url: "http://www.jahnkedesign.com/"
+  has_gravatar: 0
+michael-junck:
+  id: 51
+  email: b8e6a8cf8792976912709405cf6360ad
+  firstname: "Michael"
+  lastname: "Junck"
+  title: "eyetrapper"
+  description: "Michael Junck ist Mitglied des eyetrap.net, ein Netzwerk von Bewegtbildakrobaten und audiovisuellen Medienkünstlern aus dem Raum Frankfurt / Rhein-Main, Köln, Berlin und Los Angeles."
+  url: "https://www.facebook.com/michael.junck"
+  has_gravatar: 0
+  twitter: "@hamageddon"
+dana-junghanss:
+  id: 46
+  email: 0af68b781ef2c4ff631d1f47546e6a3a
+  firstname: "Dana"
+  lastname: "Junghanß"
+  title: "Webentwicklerin"
+  description: "Freie Webentwicklerin. Seit 2014 auch als Frontend-Developerin bei 1xInternet in Frankfurt."
+  url: "http://www.danatur.de"
+  has_gravatar: 0
+  tags: "#webdesign #frontend #cms"
+eva-junker:
+  id: 27
+  email: 34eb807772d4fbd10173163cc10b56bb
+  firstname: "Eva"
+  lastname: "Junker"
+  title: "EVE JAY.DEsign"
+  description: "Eve konnte früher schön malen und macht seit 8 Jahren EVE JAY.DEsign (\"Irgendwas mit Medien\").\r\n\r\nFür die vom Film war sie immer die aus der Werbung und für die aus der Werbung immer die vom Film.\r\n\r\nFür die COMIC SOLIDARITY ist sie die mit dem Trello, dem Google Drive, dem Glip und den Polls. \r\n\r\nFür den Webmontag die mit den Märchen und den Eierlegenden Wollmilcheinhornpony, mit Flügeln."
+  url: "http://www.evejay.de/"
+  has_gravatar: 1
+  twitter: "@EveJayDesign"
+  tags: "#comics #brandevelopment #concept"
+tim-karsko:
+  id: 117
+  email: 142b78baef67d777d35b099c918f195a
+  firstname: "Tim"
+  lastname: "Karsko"
+  title: "Kommunikationsdesigner"
+  description: "Kommt als Art- und Creative-Director aus der klassischen Werbewelt, und gibt sich mittlerweile fast gänzlich dem Netz und seinen Ausgeburten hin."
+  url: "http://www.xing.com/profiles/Tim_Karsko"
+  has_gravatar: 0
+christopher-kerth:  
+  id: 317
+  email: 34efa298d7155227f455036242e028cb
+  firstname: "Christopher"
+  lastname: "Kerth"
+  description: "Passionierter Gründer von Unternehmen. Gründer von www.startgeist.de. Kreativer und strategischer Denker. CFA Charterholder mit Corporate Finance Erfahrung. Startete seine Karriere als Transaktionsberater bei EY. Musik und Triathlon lassen sein Herz höher schlagen."
+  url: "http://de.linkedin.com/in/christopherkerth"
+  has_gravatar: 0
+  twitter: "@CHKERTH"
+  tags: "#GETOUToftheBLDG #Motivation #Startup"
+roman-kessler:
+  id: 249
+  email: 06ee8e5a5b47190595e35308a5eaf8b9
+  firstname: "Roman"
+  lastname: "Kessler"
+  description: "Ich bin ein Bastler, neudeutsch Maker, und organisiere die Make Rhein Main - eine Maker Messe am 24. und 25. Mai 2014, die gemeinsam mit dem Festival \"bended realties\" stattfindet.\r\n\r\nDas Projekt \"Nerd Dreams\" beschäftigt sich mit Retro-Rechnern - als den Wurzel der heute allgegenwärtigen Technik. Das Retro-Rechner-Quartett und der Nerd Dreams Kalender 2013 sind unsere größten Erfolge. Wir wollen einfach coole Projekte machen. \r\n\r\nEure Unterstützung treibt uns an! :)"
+  url: "https://www.facebook.com/NerdDream"
+  has_gravatar: 0
+  twitter: "@nerddream"
+georg-klein:
+  id: 82
+  email: 0ecdb6c08efcc1c5adde7186a284d13b
+  firstname: "Georg"
+  lastname: "Klein"
+  title: "Bended Realities 2013 PLAYING FOR REAL"
+  url: "http://waggon.blogsport.de/"
+  has_gravatar: 0
+leonore-kleinkauf:
+  id: 29
+  email: c7d36e4001f7cfa4b2947dafa0bbb978
+  firstname: "Leonore"
+  lastname: "Kleinkauf"
+  title: "Projektmanagerin"
+  url: "http://www.linkedin.com/pub/leonore-kleinkauf/2b/168/71b"
+  has_gravatar: 0
+  twitter: "@LKleinkauf"
+  tags: "#onmeetsoffline #reisen #sitcoms"
+kim-koerber:
+  id: 323
+  email: 061f4633b2b10760c411fabdbf5a8cae
+  firstname: "Kim"
+  lastname: "Körber"
+  description: "Kim Körber ist seit über acht Jahren ein begeisterter Mentor sowie Berater für Menschen und Firmen, die Innovationen und Ideen mit Leidenschaft verfolgen. Durch seine Gründungserfahrungen und den Aufbau einiger Unternehmen sind Erfolg und Scheitern treue Begleiter geworden. Der unstillbare Durst nach neuen Branchen, Themen und Ideen ist der Treibstoff seines unternehmerischen Schaffens."
+  url: "https://www.xing.com/profile/Kim_Koerber5"
+  has_gravatar: 0
+  twitter: "@KoerberKim"
+  tags: "#bizdevmaniac #Frankfurt #proudfather"
+andreas-kuhn:
+  id: 149
+  email: f792de4234ae8605c920c0bfa7f6644f
+  firstname: "Andreas"
+  lastname: "Kuhn"
+  description: "average guy, typesetter, apple addict, osxpert, silver surfer, acsp/actc/ace, guitarist/singer, lo-fi photographer, user of small letters, 1st of all: father"
+  url: "http://www.designworks.de"
+  has_gravatar: 1
+  twitter: "@andreaskuhn"
+  tags: "#andreaskuhn #idugrheinmain #urban_patterns"
+alexander-lis:
+  id: 48
+  email: 23f8199cc8d40943df88f3fdc8b42784
+  firstname: "Alexander"
+  lastname: "Lis"
+  title: "Design"
+  description: "Alexander Lis zählt zu den derzeit bekanntesten Grafikdesignern in Deutschland, nicht zuletzt durch seine andauernden Internet-Aktivitäten. Er ist Mitinitiator des Designfestivals „After School Club” und der Independent-Buchmesse „Issue” in Frankfurt am Main. Seit 2009 hat er Workshops und Vorträge an fast allen deutschen Designhochschulen gegeben und ist Mitbegründer des [Designbüro Frankfurt](http://www.designbuero-frankfurt.de/).\r\n\r\n_Foto: Ralf Löhr_"
+  url: "https://www.xing.com/profile/Alexander_Lis3"
+  has_gravatar: 0
+  twitter: "@alex_lis1"
+dejun-liu:  
+  id: 346
+  email: 1f35b91131cf4e7fd0109914ddcc32d3
+  firstname: "Dejun"
+  lastname: "Liu"
+  description: "Der chinesische Blogger und Menschenrechtsaktivist Liu Dejun wurde 1976 in der Provinz Hu Bei in China geboren. Nach dem Studium an einer Polizeiuniversität arbeitete er einige Jahre als Pädagoge in einem Gefängnis. Über westliche Radiosendungen erfuhr er von chinesischen Menschenrechtsaktivisten und ihren Problemen, was ihn gleichermaßen beeindruckte und bestürzte. Im Jahr 2000 quittierte er den Dienst und ging nach Peking, um sich mit anderen Dissidenten und Menschenrechtsverteidigern zusammenzuschließen. Im Jahr 2003 begann er in der Arbeiterstadt Guangdong Menschenrechtsverletzungen zu dokumentieren, während er selbst in einer der großen Fabriken arbeitete. Fünf Monate später wurde ihm gekündigt. Man warf ihm vor, die in seiner Arbeitsstätte tätigen Wanderarbeiter über ihre Arbeitsrechte aufzuklären. Er wurde mehrfach verwarnt und verhaftet. Im Jahr 2007 gründete er eine NGO mit dem Ziel, Wanderarbeiter durch rechtliche Schulungen vor Willkür und Ausbeutung zu schützen. Erneut wurde er kurzzeitig verhaftet. Nach seiner Freilassung stand er jenen bei, deren Häuser für Großprojekte illegal abgerissen wurden, die fliehen mussten und sich nicht zu helfen wussten. 2010 kam er wieder ins Gefängnis, wurde misshandelt und anschließend in einem Vorort von Peking ausgesetzt. Seine Geschichte wurde von dem Künstler Ai Weiwei eindrucksvoll verfilmt. Misshandlung durch die Polizei und Willkür bei Verfolgung und Verhaftung blieben die Themenschwerpunkte in seinen Blogs. Auf seinen Aufruf hin, dem arabischen Frühling auch in China zu folgen, wurde er erneut verhaftet und misshandelt, seine Blogs berichteten davon. Immer mehr Freunde verschwanden, seine Familie wurde vernommen und drangsaliert. Dank der Organisation „Frontline Defenders“ konnte er 2013 an einem Englischkurs in Irland teilnehmen. Seit November 2013 ist er Stipendiat im Writers-in-Exile-Programm des deutschen PEN-Zentrums und lebt in Nürnberg. Im Februar 2014 wurde Liu Dejuns chinesisches Blog zensiert und gelöscht, seitdem berichtet er auf der neu eingerichteten Internetseite [www.freeinchina.org](http://www.freeinchina.org) über Menschenrechtsverletzungen in seiner Heimat, u.a. auch auf Deutsch."
+  url: "http://www.freeinchina.org/"
+  has_gravatar: 0
+  twitter: "@L5D"
+helena-malsy:
+  id: 199
+  email: 2e5e7efd0b60a9ab319c9d8eb391a55e
+  firstname: "Helena"
+  lastname: "Malsy"
+  description: "Helena ist Inhaberin der Film- und Medienproduktion „Das Ei“. Waschechte Frankfurterin mit einem Unternehmen in Offenbach. Stolze Besitzerin eines alten VW Käfers, der mit Elektromotor fährt. Mitbegründerin von „Mut & Liebe TV“, dem YouTube Kanal des gleichnamigen Offenbacher Stadtmagazins."
+  url: "http://www.eiernetz.de"
+  has_gravatar: 0
+  twitter: "@eiernetz"
+robert-mangelmann:
+  id: 100
+  email: b3ba532d43e3ce35d9d0372daa6e822e
+  firstname: "Robert"
+  lastname: "Mangelmann"
+  title: "Senior Experience Consultant webthinking®"
+  description: "Senior Experience Consultant webthinking® | Leiter Unit „Digital Finance“ bei Die Firma GmbH in Wiesbaden ... auf dem Webmontag Offenbach aber ganz privat unterwegs."
+  url: "https://www.xing.com/profile/Robert_Mangelmann"
+  has_gravatar: 0
+  twitter: "@rmangelmann"
+  tags: "#digitalfinance"
+rene-maudrich:
+  id: 36
+  email: 5d1b6b7e58f6e722c13c03dd7f0e9d9c
+  firstname: "René"
+  lastname: "Maudrich"
+  title: "Gründer von FastBill.com"
+  url: "https://www.xing.com/profile/Rene_Maudrich"
+  has_gravatar: 1
+  twitter: "@fastbillnews"
+  tags: "#fastbillnews #bootstrap #paperless"
+thomas-meid:
+  id: 17
+  email: b890465d316e53f92018d38afc364a00
+  firstname: "Thomas"
+  lastname: "Meid"
+  description: "Thomas Meid ist Marketeer und Dispatcher. Als Spezialist in den Gebieten Closed Loop Marketing, Digital Asset Optimization und Content Marketing, betreibt er seit 2011 eine Unternehmensberatung für [Marketing und Kommunikation in Offenbach](http://www.agentur-meid.de/). Seine Erfahrungen, die er bei Unternehmen wie beispielsweise der Messe Frankfurt, Bisnode oder Computerfutures sammeln konnte, sind ihm dabei sehr von Nutzen. Seit neuestem bloggt er nun auch in eigener Sache zum Thema [Marketing](http://www.thomasmeid.de/)."
+  url: "http://www.xing.com/profile/Thomas_Meid3"
+  has_gravatar: 1
+  twitter: "@MightyMeid"
+alexander-metzler:
+  id: 120
+  email: c674ce9a355a913f4c9eae63407f7f3c
+  firstname: "Alexander"
+  lastname: "Metzler"
+  title: "Designer"
+  description: "Alexander Metzler ist Web-Consulter und Mediendesigner. Als Geschäftsführer von [a-fusion] new.media.design realisiert er Print- und Webprojekte seit 2003. \n\nEr ist Teil der Joomla! Community und Mitgründer der [Joomla! User Group Rhein-Main / FFM](http://www.joomla-rhein-main.de/)."
+  url: "http://www.a-fusion.de"
+  has_gravatar: 1
+  twitter: "@a_fusion"
+  tags: "#jpositiv #design #frischluft"
+sebastian-nell:
+  id: 191
+  email: 3b06d4c94ec1ba18f0c80c1f060bfedf
+  firstname: "Sebastian"
+  lastname: "Nell"
+  title: "CEO & Founder essquare"
+  description: "Sebastian arbeitet als Director Strategy & Innovation bei Triplesense Reply und ist Gründer der essquare UG (haftungsbeschränkt). Seine Schwerpunkte hat er in der strategischen Organisations- und Produktentwicklung und begleitet dort internationale Kunden rund um Transformationsthemen."
+  url: "https://www.xing.com/profiles/Sebastian_Nell"
+  has_gravatar: 1
+  twitter: "@sebastian_nell"
+  tags: "#Facilitator #Innovation #FutureOfWork"
+michael-perrot:
+  id: 15
+  email: 8888b8bbd07f8de6edaa020f9c70bb4b
+  firstname: "Michael"
+  lastname: "Perrot"
+  description: "… ein echter 68er.\r\n\r\nIch beschäftige mich schon lange mit 'Lebensmitteln', nicht nur in der Küche. Auch nachhaltige Produktion und kritische Auseinandersetzung mit der Lebensmittelindustrie, deren Lobby und den großen Konzernen.\r\nSeit Jahren Veganer und - neben meinem (noch) Hauptbrötchenberuf im Gesundheitswesen - Koch im ersten veganen Restaurant Frankfurts. Seit 1.3. selbständig mit dem Unternehmen '[vegane visite](http://www.veganevisite.de)' und biete Dienstleistungen wie private dining, pop-up cooking an."
+  url: "http://www.veganevisite.de"
+  has_gravatar: 0
+  twitter: "@mad_mikel"
+  tags: "#veganchef #popupcooking"
+philipp-praet:
+  id: 221
+  email: 970582463aac93f7921cba56aa38ed1c
+  firstname: "Philipp"
+  lastname: "Praet"
+  title: "Online-Journalist"
+  description: "Philipp ist Absolvent der Hochschule Darmstadt im Studiengang Online-Journalismus und Mitgründer des Communication Camps. Der 24-jährige strebt einen Master-Abschluss an der Hochschule der Medien in Stuttgart an."
+  url: "http://www.linkedin.com/profile/view?id=156739068&trk=nav_responsive_tab_profile_pic"
+  has_gravatar: 0
+  tags: "#CCFFM"
+christopher-riedel:
+  id: 40
+  email: 27c22b829022daf3fc917bbe301b1a48
+  firstname: "Christopher"
+  lastname: "Riedel"
+  title: "Student Digitale Medien"
+  description: "Christopher macht Online Marketing aus Leidenschaft. Der Pfälzer kam vor 6 Jahren nach Offenbach und sammelte durch eine Ausbildung im Medienbereich und ein duales Studium bei einer der führenden Agenturen für Online-Dialog wertvolle Praxiserfahrung bei der Umsetzung von großen Projekten im E-Mail und Social Media Marketing.Nebenbei bloggt er bei seinem Hobby-Projekt [DJ rooms](http://www.dj-rooms.com) auf englisch für Schallplattensammler, DJs und Produzenten."
+  url: "http://www.chrisriedel.de"
+  has_gravatar: 0
+  twitter: "@chriedel"
+  tags: "#onlinemarketing #emailmarketing #storytelling"
+joachim-schirrmacher:
+  id: 99
+  email: 946be046b2d641fc4607d71cfc0693ee
+  firstname: "Joachim"
+  lastname: "Schirrmacher"
+  description: "Joachim arbeitet seit 1982 in Software-Projekten, seit 1994 beschäftigt er sich mit Web-Anwendungen. In dieser Zeit hat er bereits mehrere Unternehmen gegründet. Derzeit ist er zusammen mit seiner Frau Christiane Gerigk als Justso für Gründer und innovative Unternehmer tätig, indem er ihren Ideen zur technischen Umsetzung verhilft. Neben ihrer Erfahrung nutzen sie dabei vor allem Lean Startup Prinzipien, um einen schnellen, günstigen und sicheren Einstieg zu ermöglichen."
+  url: "http://www.justso.de/wer"
+  has_gravatar: 1
+  twitter: "@jschirrmacher"
+alexander-schnapper:
+  id: 277
+  email: 8a2baf7aad0a7a10da1d0b219549b146
+  firstname: "Alexander"
+  lastname: "Schnapper"
+  description: "ähm, ich bin ich. :D"
+  url: "https://www.xing.com/profile/Alexander_Schnapper"
+  has_gravatar: 0
+  twitter: "@alexschnapper"
+guido-schuh:
+  id: 93
+  email: 9fb80ab4cb91880e76ef52ac25da51ed
+  firstname: "Guido"
+  lastname: "Schuh"
+  title: "Diplom-Informatiker"
+  description: "Guido Schuh arbeitet seit neun Jahren bei einer Softwarefirma in Offenbach. In seiner Freizeit baut er gern hübsch blinkende, meist sinnlose Objekte."
+  url: "https://www.xing.com/profile/Guido_Schuh"
+  has_gravatar: 0
+  twitter: "@moolder"
+maria-schuetz:
+  id: 26
+  email: cf82b1e031929ef9e641a1801b988acf
+  firstname: "Maria"
+  lastname: "Schütz"
+  description: "Maria Schütz arbeitet seit September 2012 als Marketing Manager bei DeinBus.de. Sie kümmert sich um alles rund um das Thema Werbung und Marke und sorgt dafür, dass Fans und Mitfahrer immer wieder spüren, dass sie es mit einem Unternehmen mit Herz und Seele zu tun haben. Da Facebook & co. für dieses Vorhaben natürlich besonders wichtig sind, hegen und pflegen Maria und ihr Team den Social-Media-Bereich liebevoll wie ihren eigenen Gemüsegarten."
+  url: "http://www.facebook.com/DeinBus"
+  has_gravatar: 0
+thomas-seifried:
+  id: 183
+  email: 2b19a56c2f6b92fe289444a05374499f
+  firstname: "Thomas"
+  lastname: "Seifried"
+  title: "Rechtsanwalt für Markenrecht, Internetrecht und Fachanwalt für gewerblichen Rechtsschutz "
+  description: "Thomas Seifried vertritt und berät namhafte Unternehmen und bekannte Markenhersteller im Markenrecht, Internetrecht, Wettbewerbsrecht und Designrecht. Zu seinen Mandanten gehören u.a. einige der bekanntesten deutschen Unternehmen der Textil- und Modeindustrie sowie Industrieverbände der Textil- und Modebranche. Er ist seit Anfang 2007 auch Fachanwalt für gewerblichen Rechtsschutz und hat Erfahrungen aus mehreren hundert gerichtlichen Verfahren. Seine Mandanten stammen aus Deutschland, dem europäischen Ausland, den USA und der Schweiz. "
+  url: "http://www.gewerblicherrechtsschutz.pro/index.php?id=rechtsanwalt_wettbewerbsrecht"
+  has_gravatar: 0
+  twitter: "@thomasseifried"
+  tags: "#law"
+johannes-seitz:
+  id: 169
+  email: 23dc453cda5f6b0fc6220763b4cd1dcf
+  firstname: "Johannes"
+  lastname: "Seitz"
+  title: "Freelance Software Engineer"
+  description: "Johannes ist freiberuflicher Softwareentwickler, der vorher auch schon bei einer Webagentur und einem Startup Software entwickelt hat. Er co-organisiert die Software Craftsmanship Community \"Softwerkskammer\" und das Software Architecture Meetup. Er stellt gerne unangenehme Fragen und kann damit seinen Lebensunterhalt verdienen. "
+  has_gravatar: 0
+  twitter: "@ookami86"
+  tags: "#craftsmanship #development #freelancing"
+vladimir-shapovalov:
+  id: 263
+  email: 0a1d8cd427a73e31aec062c759ab6417
+  firstname: "Vladimir"
+  lastname: "Shapovalov"
+  description: "Früher war ich als Admin und Softwareentwickler mit Schwerpunkt Web (hauptsächlich Backends, CMS) tätig.\r\n\r\nZur Zeit arbeite bei einem sehr großen Telekommunikationsunternehmen. Mache ziemlich alles dort. Unter anderem Kundenportale, Searchengines, Interfacing, NoSQls usw."
+  has_gravatar: 0
+david-p-steel:
+  id: 121
+  email: e556de858a49603e7068520d75977d60
+  firstname: "David P."
+  lastname: "Steel"
+  title: "crossmedia storytelling"
+  description: "Game Producer, User Experience Architect, Copywriter"
+  url: "http://www.steelecht.com"
+  has_gravatar: 0
+matthias-thuerling:
+  id: 287
+  email: e5207317b15e2b2f28aba89797ad79bf
+  firstname: "Matthias"
+  lastname: "Thürling"
+  title: "intoCommerce"
+  description: "Matthias Thürling ist Gründer und Geschäftsführer von [intoCommerce](http://www.into-commerce.de), einer E-Commerce-Agentur aus Wiesbaden mit Spezialisierung als Shopware Agentur. Er berät führende Unternehmen aus Industrie, Produktion und Handel zum Online-Vertrieb ihrer Produkte über B2B-Marktplätze und Online-Shops. Zuvor war er in der Standort-Geschäftsleitung von Deutschland größter Internetagentur. Als Teil des Management-Teams konnte er namhafte Kunden im Bereich E-Commerce beraten und die Umsetzung von Online-Shops begleiten. "
+  url: "http://www.into-commerce.de"
+  has_gravatar: 0
+  twitter: "@intocommerce"
+  tags: "#B2BCommerce #Shopware #Agentur"
+rui-zhong:
+  id: 251
+  email: e831d1790d21bc5656f9e5a002529a57
+  firstname: "Rui"
+  lastname: "Zhong"
+  title: "Dip. Designerin"
+  description: "designerin rui zhong\r\nstammt aus sichuan\r\nin china & studierte\r\ndesign in peking und\r\noffenbach am main.\r\n\r\n2012 gründete sie \r\ndk-industriedesign in frankfurt am main."
+  url: "http://www.dk-industriedesign.de/"
+  has_gravatar: 0
+simon-zirkunow:
+  id: 21
+  email: 3412026fc6e3331769455c029f7e7800
+  firstname: "Simon"
+  lastname: "Zirkunow"
+  title: "Designer"
+  description: "Simon arbeitet seit 2008 als selbstständiger Typograf. Als Mitgründer des Designbüros [Lichtsignale](http://www.lichtsignale.de/) entwirft er für große und kleine Auftraggeber Erscheinungsbilder, Drucksachen und Internetseiten. Parallel dazu beschäftigt er sich mit der Geschichte des Grafikdesigns und hält dazu Gastvorträge an seiner ehemaligen Hochschule in Konstanz."
+  url: "http://www.lichtsignale.de/"
+  has_gravatar: 1
+  twitter: "@simonzirkunow"
+  tags: "#typografie #buecher #dsgngeschichte"

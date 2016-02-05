@@ -1,0 +1,263 @@
+---
+---
+
+@import "normalize";
+@import "helpers";
+@import "colors";
+@import "fonts";
+@import "form";
+
+$spacing: 15px;
+$textMaxWidth: 550px;
+$imgheight: 400px;
+$maxWidth: 1200px;
+
+html {
+  background: $bg url(../images/bg.png);
+  color: $text;
+  font-size: 0.8725em;
+  font-family: Tahoma, Helvetia, Arial, sans-serif;
+  line-height: 1.5em;
+}
+
+a {
+  color: $link;
+  text-decoration: none;
+}
+
+span.heart {
+  color: $heart;
+}
+
+.error {
+  color: $error;
+}
+
+.warning {
+  color: $warning;
+}
+
+.small {
+  font-size: 0.875em;
+  line-height: 125%;
+}
+
+#logo {
+  width: 100%;
+}
+
+h1 {
+  margin: 0;
+}
+
+#box > article {
+  border-top: $spacing solid $blue;
+}
+
+ul.imagelist {
+  @extend .clearfix;
+  padding: 0;
+  li {
+    float: left;
+    display: inline-block;
+    margin-right: 10px;
+    margin-bottom: 20px;
+    width: 120px;
+    img {
+      width: 100%;
+    }
+  }
+  li:last-child {
+    margin-right: 0;
+  }
+}
+
+ul.team, ul.sponsoren, ul.partner, ul.users {
+  @extend ul.imagelist;
+}
+
+header {
+  border-top: $spacing solid $blue;
+  background: $bg;
+  padding-bottom: $spacing;
+  article {
+    div {
+      img {
+        padding: $spacing;
+      }
+      nav {
+        @extend .clearfix;
+        margin: $spacing 0;
+        font-size: 1.25em;
+        a {
+          text-align: center;
+          float: left;
+          width: 33%;
+          color: $bg;
+          padding: 1em 0;
+        }
+        background-color: $blue;
+        color: $bg;
+      }
+    }
+    font-size: 0.875em;
+    line-height: 125%;
+    aside {
+      margin: 0;
+      padding: 0 $spacing;
+      max-width: $textMaxWidth;
+      h2 {
+        margin-top: 0;
+        line-height: 115%;
+        font-size: 1.25em;
+      }
+      p {
+        margin-bottom: 0;
+      }
+    }
+  }
+}
+
+.box {
+  padding: $spacing;
+  background-color: $bg;
+}
+
+div.messages {
+  border-top: $spacing solid $blue;
+  background-color: $warning;
+  padding: $spacing;
+  color: rgba(#000, 0.85);
+}
+
+#event {
+  @extend .box;
+  div.bgimage {
+    display: none;
+  }
+  h2 {
+    margin-top: 0;
+  }
+  ul.talks, ul.users {
+    @extend .clearfix;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    li {
+      @extend .small;
+      @extend .clearfix;
+      margin: 0;
+      padding: 0;
+      margin-right: 2%;
+      margin-bottom: 2%;
+      width: (94%/4);
+      float: left;
+      img {
+        width: 100%;
+      }
+      span.name {
+        display: none;
+      }
+    }
+    li:last-child {
+      margin-right: 0;
+    }
+  }
+  ul.users li {
+    width: (94%/9);
+  }
+}
+
+#extras {
+  @extend .box;
+}
+
+#profile {
+  @extend .box;
+}
+
+article.page {
+  @extend .box;
+  @extend .clearfix;
+  img.user {
+    width: 150px;
+    float: right;
+    margin-left: 10px;
+  }
+  img.talk {
+    width: 100%;
+    margin-bottom: 1em;
+  }
+}
+
+article.talk, article.user {
+  @extend article.page;
+}
+
+article.important {
+  color: $warning_text;
+  input {
+    border-color: $warning;
+  }
+  button {
+    background-color: $warning;
+    color: $warning_text;
+  }
+}
+
+/** Forms **/
+form.register {
+  fieldset {
+    @extend .clearfix;
+    margin: 0;
+    padding: 0;
+    border: 0;
+    input {
+      width: 65%;
+      float: left;
+    }
+    button {
+      float: right;
+      width: 33%;
+    }
+  }
+}
+
+p.fineprint {
+  @extend .small;
+}
+
+footer {
+  @extend .small;
+  @extend .clearfix;
+  background-color: $blue;
+  color: rgba($bg, 0.75);
+  text-align: right;
+  a {
+    color: rgba($bg, 0.75);
+    text-decoration: underline;
+  }
+  p {
+    margin: 0;
+    padding: 1em 1em 1em 0;
+  }
+  nav {
+    float: left;
+    text-align: left;
+    margin: $spacing;
+    a {
+      display: block;
+    }
+  }
+}
+
+iframe.youtube {
+  border: 0;
+}
+
+ul.links {
+  list-style: none;
+  padding: 0;
+}
+
+@import "responsive";

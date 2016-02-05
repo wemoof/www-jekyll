@@ -1,0 +1,11 @@
+title: WEMO♥F | Webmontag Offenbach
+email: m@wemoof.de
+description: > # Der Webmontag Offenbach ist eine informelle, nicht-kommerzielle und von der Community organisierte 
+  Veranstaltung, die Menschen zusammen bringt, die sich für das Web begeistern, Teil davon sind oder es werden wollen.
+baseurl: ""
+url: https://wemoof.de
+twitter_username: wemoof
+github_username:  wemoof
+
+# Build settings
+markdown: kramdown
