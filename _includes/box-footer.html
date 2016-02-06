@@ -1,9 +1,9 @@
 <footer>
   <nav>
-    <a href="/talks">Talks</a>
-    <a href="/faq">Wissenswertes</a>
-    <a href="/verhaltensregeln">Verhaltensregeln</a>
-    <a href="/contact">Kontakt</a>
+    <a href="{{ "/talks" | prepend: site.baseurl | prepend: site.url }}">Talks</a>
+    <a href="{{ "/faq" | prepend: site.baseurl | prepend: site.url }}">Wissenswertes</a>
+    <a href="{{ "/verhaltensregeln" | prepend: site.baseurl | prepend: site.url }}">Verhaltensregeln</a>
+    <a href="{{ "/contact" | prepend: site.baseurl | prepend: site.url }}">Kontakt</a>
   </nav>
   <p>Hergestellt in Offenbach.<br><a href="{{ site.author_url }}" rel="author">{{ site.author }}</a>, 2013–{{ site.time | date:
     '%Y' }}.</p>
