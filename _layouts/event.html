@@ -1,0 +1,47 @@
+{% assign event = site.data.events[page.wemoof] %}
+{% assign d = event.start | date: '%d.%m.%Y' %}
+{% capture title %}WEMO♥F | {{ event.name }} am {{ d }}{% endcapture %}
+<!DOCTYPE html>
+<html lang="de-de">
+
+{% include head.html %}
+
+<body class="compact">
+<div id="box">
+  <article class="page">
+    {% include article-header.html %}
+
+    <h2>Am
+      <time datetime="{{ event.start|date:'%FT%TZ' }}">{{ d }}</time>
+      fand der {{ event.id }}. <strong>Webmontag Offenbach</strong> in der
+      <a href="http://afip-hessen.de/">»afip!«</a> statt.
+    </h2>
+
+    <p>Der <strong>Webmontag Offenbach</strong> ist eine informelle, nicht-kommerzielle und von der
+      Community organisierte Veranstaltung, die Menschen zusammen bringt, die sich für das Web begeistern,
+      Teil davon sind oder es werden wollen.</p>
+
+    <h3>Sprecher</h3>
+
+    <ul>
+      {% for id in site.data.talks %}
+      {% assign talk = site.data.talk[id] %}
+      {% assign speaker = site.data.users[talk.speaker] %}
+      {% if talk.wemoof == page.wemoof %}
+      <li>
+        <a href="{{ "/talk/" | prepend: site.baseurl | prepend: site.url | append:id | append:"/" | append:talk.id }}">
+          {{ speaker.firstname }} {{ speaker.lastname }}: {{ talk.name }}
+        </a>
+      </li>
+      {% endif %}
+      {% endfor %}
+    </ul>
+  </article>
+  {% include box-footer.html %}
+</div>
+
+{% include footer.html %}
+
+</body>
+
+</html>

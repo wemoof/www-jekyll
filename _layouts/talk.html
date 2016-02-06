@@ -19,7 +19,7 @@
 
     <p><em>Ein {% if talk.type == "spotlight" %}Spotlight{% else %}Vortrag{% endif %} von
       <a href="{{ "/speaker/" | prepend: site.baseurl | prepend: site.url | append:talk.speaker | append:"/" | append:speaker.id }}">{{ speaker.firstname }} {{ speaker.lastname }}</a>
-      auf dem <a href="{{ site.baseurl | prepend: site.url | append:talk.wemoof }}">{{ event.name }} am {{ d }}</a>.</em></p>
+      auf dem <a href="{{ "/" | prepend:site.baseurl | prepend: site.url | append:talk.wemoof }}">{{ event.name }} am {{ d }}</a>.</em></p>
 
     {% capture tweet %}Auf dem @{{ site.twitter_username }} spricht {% if speaker.twitter %}{{ speaker.twitter }}{% else %}{{ speaker.firstname }} {{ speaker.lastname }}{% endif %} über {{ talk.name }}:{% endcapture %}
 
