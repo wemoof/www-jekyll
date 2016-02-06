@@ -53,7 +53,7 @@ layout: default
   {% for id in site.data.speakers %}
   {% assign speaker = site.data.users[id] %}
   <li>
-    <a href="/speaker/{{ speaker.firstname | append:'-' | append:speaker.lastname | slugify }}/{{ speaker.id }}">{{
+    <a href="{{ "/speaker/" | prepend: site.baseurl | prepend: site.url | append:id | append:"/" | append:speaker.id }}">{{
       speaker.firstname }} {{ speaker.lastname }}</a>
   </li>
   {% endfor %}

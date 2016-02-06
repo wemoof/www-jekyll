@@ -1,5 +1,5 @@
 {% assign speaker = site.data.users[page.speaker] %}
-{% assign title = speaker.firstname | append:" " | append: speaker.lastname %}
+{% assign title = speaker.firstname | append:" " | append: speaker.lastname | append: " | " | append:site.title %}
 <!DOCTYPE html>
 <html lang="de-de">
 
@@ -9,47 +9,9 @@
 <div id="box">
   <article class="user">
     {% include article-header.html %}
+
+    {% include user.html user=page.speaker %}
     
-    <h2>
-      <strong>{{ speaker.firstname }} {{ speaker.lastname }}</strong>
-      {% if speaker.title %}
-      <br>
-      <small>{{ speaker.title }}</small>
-      {% endif %}
-    </h2>
-
-    {% if speaker.url %}<a href="{{ speaker.url }}">{% endif %}
-    {% if speaker.has_gravatar %}
-    <img src="http://www.gravatar.com/avatar/{{ speaker.email }}?s=150" alt="{{ speaker.firstname }} {{ speaker.lastname }}" class="user">
-    {% else %}
-    <img src="{{ '/images/user/' | append:page.speaker | append:'-' | append:speaker.id }}.jpg" alt="{{ speaker.firstname }} {{ speaker.lastname }}" class="user">
-    {% endif %}
-    {% if speaker.url %}</a>{% endif %}    
-    
-    {% if speaker.description %}
-    {{ speaker.description|markdownify }}
-    {% endif %}
-
-    {% if speaker.tags %}
-    <p><em>Sprich mit mir über <strong>{{ speaker.tags }}</strong></em></p>
-    {% endif %}
-
-    <ul class="links">
-      {% if speaker.url %}
-      <li>
-        <i class="icon-home"></i> <a href="{{ speaker.url }}" title="{{ speaker.firstname }} {{ speaker.lastname }}">{{ speaker.url }}</a>
-      </li>
-      {% endif %}
-      {% if speaker.twitter %}
-      <li>
-        <i class="icon-twitter"></i>
-        <a href="https://twitter.com/{{ speaker.twitter|slice:1, 100 }}"
-           title="{{ speaker.firstname }} {{ speaker.lastname }} auf Twitter">{{ speaker.twitter }}</a>
-      </li>
-      {% endif %}
-    </ul>
-
-
     <a href="https://twitter.com/share" class="twitter-share-button" data-text="#wemoof Profil {% if speaker.twitter %}{{ speaker.twitter }}{% else %}{{ speaker.firstname }} {{ speaker.lastname }}{% endif %}: {{ speaker.title }} {{ speaker.tags }}" data-lang="de">Tweet</a>
 
   </article>

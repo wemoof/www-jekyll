@@ -1,0 +1,41 @@
+{% assign user = site.data.users[include.user] %}
+{% if include.hl %}{% assign hl = include.hl %}{% else %}{% assign hl = "h2" %}{% endif %}
+{% if include.prefix %}{% assign prefix = include.prefix %}{% else %}{% assign prefix = "" %}{% endif %}
+<{{ hl }}>
+  <strong>{{ prefix }}{{ user.firstname }} {{ user.lastname }}</strong>
+  {% if user.title %}
+  <br>
+  <small>{{ user.title }}</small>
+  {% endif %}
+</{{ hl }}>
+
+{% if user.url %}<a href="{{ user.url }}">{% endif %}
+  {% if user.has_gravatar != 0 %}
+  <img src="http://www.gravatar.com/avatar/{{ user.email }}?s=150" alt="{{ user.firstname }} {{ user.lastname }}" class="user">
+  {% else %}
+  <img src="{{ '/images/user/' | append:include.user | append:'-' | append:user.id }}.jpg" alt="{{ user.firstname }} {{ user.lastname }}" class="user">
+  {% endif %}
+  {% if user.url %}</a>{% endif %}
+
+{% if user.description %}
+{{ user.description|markdownify }}
+{% endif %}
+
+{% if user.tags %}
+<p><em>Sprich mit mir über <strong>{{ user.tags }}</strong></em></p>
+{% endif %}
+
+<ul class="links">
+  {% if user.url %}
+  <li>
+    <i class="icon-home"></i> <a href="{{ user.url }}" title="{{ user.firstname }} {{ user.lastname }}">{{ user.url }}</a>
+  </li>
+  {% endif %}
+  {% if user.twitter %}
+  <li>
+    <i class="icon-twitter"></i>
+    <a href="https://twitter.com/{{ user.twitter|slice:1, 100 }}"
+       title="{{ user.firstname }} {{ user.lastname }} auf Twitter">{{ user.twitter }}</a>
+  </li>
+  {% endif %}
+</ul>

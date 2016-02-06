@@ -1,6 +1,6 @@
 <head>
   <meta charset="UTF-8">
-  <title>{% if title %}{{ title | append: " | " | append:site.title | escape }}{% else %}{% if page.title %}{{ page.title | append: " | " | append:site.title | escape }}{% else %}{{ site.title | escape }}{% endif %}{% endif %}</title>
+  <title>{% if title %}{{ title | xml_escape }}{% else %}{% if page.title %}{{ page.title | append: " | " | append:site.title | xml_escape }}{% else %}{{ site.title | xml_escape }}{% endif %}{% endif %}</title>
   <meta name="description" content="{% if page.excerpt %}{{ page.excerpt | strip_html | strip_newlines | truncate: 160 }}{% else %}{{ site.description }}{% endif %}">
   <meta name="author" content="Markus Tacker | http://cto.hiv/">
   <meta name="viewport" content="width=device-width,initial-scale=1">

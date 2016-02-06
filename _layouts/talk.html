@@ -1,0 +1,53 @@
+{% assign talk = site.data.talk[page.talk] %}
+{% assign speaker = site.data.users[talk.speaker] %}
+{% assign event = site.data.events[talk.wemoof] %}
+{% assign d = event.start | date: '%d.%m.%Y' %}
+{% capture title %}{{ speaker.firstname }} {{ speaker.lastname }}: {{ talk.name }} | WEMO♥F | {{ event.name }} am {{ d }}{% endcapture %}
+<!DOCTYPE html>
+<html lang="de-de">
+
+{% include head.html %}
+
+<body class="compact">
+<div id="box">
+  <article class="talk">
+    {% include article-header.html %}
+
+    <h2>
+      {{ talk.name }}
+    </h2>
+
+    <p><em>Ein {% if talk.type == "spotlight" %}Spotlight{% else %}Vortrag{% endif %} von
+      <a href="{{ "/speaker/" | prepend: site.baseurl | prepend: site.url | append:talk.speaker | append:"/" | append:speaker.id }}">{{ speaker.firstname }} {{ speaker.lastname }}</a>
+      auf dem <a href="{{ site.baseurl | prepend: site.url | append:talk.wemoof }}">{{ event.name }} am {{ d }}</a>.</em></p>
+
+    {% capture tweet %}Auf dem @{{ site.twitter_username }} spricht {% if speaker.twitter %}{{ speaker.twitter }}{% else %}{{ speaker.firstname }} {{ speaker.lastname }}{% endif %} über {{ talk.name }}:{% endcapture %}
+
+    <a href="https://twitter.com/share" class="twitter-share-button" data-text="{{ tweet | xml_escape }}" data-lang="de" data-hashtags="wemoof">Tweet</a>
+
+    {% assign share_url = "/talk/" | prepend: site.baseurl | prepend: site.url | append:page.talk | append:"/" | append:talk.id }} %}
+    <div class="fb-like" data-href="{{ share_url }}" data-send="false" data-layout="button_count" data-width="450" data-show-faces="false" data-font="tahoma" data-action="recommend"></div>
+    
+    {% if talk.description %}
+    {{ talk.description|markdownify }}
+    {% endif %}
+
+    {% if talk.url %}
+    <p><em><a href="{{ talk.url }}">Zur Präsentation</a></em></p>
+    {% endif %}
+
+    {% if talk.youtube %}
+    <iframe width="540" height="304" src="{{ talk.youtube }}" class="youtube"></iframe>
+    {% endif %}
+    
+    {% include user.html user=talk.speaker hl="h3" prefix="Über " %}
+    
+  </article>
+  {% include box-footer.html %}
+</div>
+
+{% include footer.html %}
+
+</body>
+
+</html>

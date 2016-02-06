@@ -5,6 +5,7 @@ description: > # Der Webmontag Offenbach ist eine informelle, nicht-kommerzielle
 baseurl: ""
 url: https://wemoof.de
 twitter_username: wemoof
+twitter_hashtag: wemoof
 github_username:  wemoof
 
 # Build settings

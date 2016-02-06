@@ -1,0 +1,18 @@
+---
+layout: default
+---
+
+<h2>
+  Talks </h2>
+
+<ul>
+  {% for id in site.data.talks %}
+  {% assign talk = site.data.talk[id] %}
+  {% assign speaker = site.data.users[talk.speaker] %}
+  <li>
+    <a href="{{ "/talk/" | prepend: site.baseurl | prepend: site.url | append:id | append:"/" | append:talk.id }}" title="{{ talk.name }}">
+      {{ talk.name }}
+    </a> &ndash; {{ speaker.firstname }} {{ speaker.lastname }}
+  </li>
+  {% endfor %}
+</ul>
