@@ -23,7 +23,7 @@
 
     {% capture tweet %}Auf dem @{{ site.twitter_username }} spricht {% if speaker.twitter %}{{ speaker.twitter }}{% else %}{{ speaker.firstname }} {{ speaker.lastname }}{% endif %} über {{ talk.name }}:{% endcapture %}
 
-    <a href="https://twitter.com/share" class="twitter-share-button" data-text="{{ tweet | xml_escape }}" data-lang="de" data-hashtags="wemoof">Tweet</a>
+    <a href="https://twitter.com/share" class="twitter-share-button" data-text="{{ tweet | xml_escape }}" data-lang="de" data-hashtags="{{ site.twitter_hashtag }}">Tweet</a>
 
     {% assign share_url = "/talk/" | prepend: site.baseurl | prepend: site.url | append:page.talk | append:"/" | append:talk.id }} %}
     <div class="fb-like" data-href="{{ share_url }}" data-send="false" data-layout="button_count" data-width="450" data-show-faces="false" data-font="tahoma" data-action="recommend"></div>
