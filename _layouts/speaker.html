@@ -14,6 +14,18 @@
     
     <a href="https://twitter.com/share" class="twitter-share-button" data-text="#wemoof Profil {% if speaker.twitter %}{{ speaker.twitter }}{% else %}{{ speaker.firstname }} {{ speaker.lastname }}{% endif %}: {{ speaker.title }} {{ speaker.tags }}" data-lang="de">Tweet</a>
 
+    <h3>Talks von <strong>{{ speaker.firstname }} {{ speaker.lastname }}</strong></h3>
+    <ul>
+      {% for id in site.data.talks %}
+      {% assign talk = site.data.talk[id] %}
+      {% if talk.speaker == page.speaker %}
+      <li>
+        <a href="{{ "/talk/" | prepend: site.baseurl | prepend: site.url | append:id | append:"/" | append:talk.id }}">{{ talk.name }}</a>
+      </li>
+      {% endif %}
+      {% endfor %}
+    </ul>
+
   </article>
   {% include box-footer.html %}
 </div>
