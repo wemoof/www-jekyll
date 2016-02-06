@@ -1,0 +1,14 @@
+branches:
+  except:
+    - /^v[0-9]/
+
+language: ruby
+
+sudo: false
+
+install:
+  - gem install jekyll
+
+script:
+  - jekyll build
+
