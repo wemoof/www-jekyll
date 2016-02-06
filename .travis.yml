@@ -1,6 +1,8 @@
 branches:
   except:
     - /^v[0-9]/
+  only:
+    - gh-pages
 
 language: ruby
 
