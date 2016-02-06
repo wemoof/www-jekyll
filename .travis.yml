@@ -6,6 +6,9 @@ branches:
 
 language: ruby
 
+rvm:
+  - 2.2.4
+
 sudo: false
 
 install:
