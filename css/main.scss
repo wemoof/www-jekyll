@@ -5,7 +5,6 @@
 @import "helpers";
 @import "colors";
 @import "fonts";
-@import "form";
 
 $spacing: 15px;
 $textMaxWidth: 550px;
@@ -52,28 +51,6 @@ h1 {
 
 #box > article {
   border-top: $spacing solid $blue;
-}
-
-ul.imagelist {
-  @extend .clearfix;
-  padding: 0;
-  li {
-    float: left;
-    display: inline-block;
-    margin-right: 10px;
-    margin-bottom: 20px;
-    width: 120px;
-    img {
-      width: 100%;
-    }
-  }
-  li:last-child {
-    margin-right: 0;
-  }
-}
-
-ul.team, ul.sponsoren, ul.partner, ul.users {
-  @extend ul.imagelist;
 }
 
 header {
@@ -123,59 +100,6 @@ header {
   background-color: $bg;
 }
 
-div.messages {
-  border-top: $spacing solid $blue;
-  background-color: $warning;
-  padding: $spacing;
-  color: rgba(#000, 0.85);
-}
-
-#event {
-  @extend .box;
-  div.bgimage {
-    display: none;
-  }
-  h2 {
-    margin-top: 0;
-  }
-  ul.talks, ul.users {
-    @extend .clearfix;
-    margin: 0;
-    padding: 0;
-    list-style: none;
-    li {
-      @extend .small;
-      @extend .clearfix;
-      margin: 0;
-      padding: 0;
-      margin-right: 2%;
-      margin-bottom: 2%;
-      width: (94%/4);
-      float: left;
-      img {
-        width: 100%;
-      }
-      span.name {
-        display: none;
-      }
-    }
-    li:last-child {
-      margin-right: 0;
-    }
-  }
-  ul.users li {
-    width: (94%/9);
-  }
-}
-
-#extras {
-  @extend .box;
-}
-
-#profile {
-  @extend .box;
-}
-
 article.page {
   @extend .box;
   @extend .clearfix;
@@ -192,35 +116,6 @@ article.page {
 
 article.talk, article.user {
   @extend article.page;
-}
-
-article.important {
-  color: $warning_text;
-  input {
-    border-color: $warning;
-  }
-  button {
-    background-color: $warning;
-    color: $warning_text;
-  }
-}
-
-/** Forms **/
-form.register {
-  fieldset {
-    @extend .clearfix;
-    margin: 0;
-    padding: 0;
-    border: 0;
-    input {
-      width: 65%;
-      float: left;
-    }
-    button {
-      float: right;
-      width: 33%;
-    }
-  }
 }
 
 p.fineprint {
