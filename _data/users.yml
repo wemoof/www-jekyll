@@ -162,6 +162,7 @@ dana-junghanss:
   description: "Freie Webentwicklerin. Seit 2014 auch als Frontend-Developerin bei 1xInternet in Frankfurt."
   url: "http://www.danatur.de"
   tags: "#webdesign #frontend #cms"
+  no_photo: 1
 eva-junker:
   id: 27
   email: 34eb807772d4fbd10173163cc10b56bb
@@ -205,6 +206,7 @@ georg-klein:
   lastname: "Klein"
   title: "Bended Realities 2013 PLAYING FOR REAL"
   url: "http://waggon.blogsport.de/"
+  no_photo: 1
 leonore-kleinkauf:
   id: 29
   email: c7d36e4001f7cfa4b2947dafa0bbb978
@@ -437,3 +439,4 @@ jkjessenqundgde:
   email: edf8183d0d0fe974b69a4e7c7dbefbe3
   firstname: "Jan-Kristian"
   lastname: "Jessen"
+  no_photo: 1

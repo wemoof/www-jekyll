@@ -13,7 +13,12 @@
   {% if user.gravatar %}
   <img src="http://www.gravatar.com/avatar/{{ user.email }}?s=150" alt="{{ user.firstname }} {{ user.lastname }}" class="user">
   {% else %}
-  <img src="{{ '/images/user/' | append:include.user | append:'-' | append:user.id }}.jpg" alt="{{ user.firstname }} {{ user.lastname }}" class="user">
+  {% if user.no_photo %}
+  {% assign photo='/images/wildcard.png' %}
+  {% else %}
+  {% assign photo = '/images/user/' | append:include.user | append:'-' | append:user.id | append:'.jpg' %}
+  {% endif %}
+  <img src="{{ photo }}" alt="{{ user.firstname }} {{ user.lastname }}" class="user">
   {% endif %}
   {% if user.url %}</a>{% endif %}
 
