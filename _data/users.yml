@@ -440,3 +440,30 @@ jkjessenqundgde:
   firstname: "Jan-Kristian"
   lastname: "Jessen"
   no_photo: 1
+christine-kinze:
+  id: 101
+  email: "8c009cd3172e1ea8c9f434dd86ccf26e"
+  firstname: "Christine"
+  lastname: "Kinze"
+  title: "Senior Experience Consultant"
+  url: "https://www.xing.com/profile/Christine_Kinze"
+  twitter: "@DieFrauK"
+  tags: "#social #neuland #content"
+jochen-bachmann:
+  id: 104
+  email: "089e4d1977b838196dc860774911dca7"
+  firstname: "Jochen"
+  lastname: "Bachmann"
+  title: "Freiberuflicher Softwareentwickler"
+  url: "https://www.xing.com/profile/Jochen_Bachmann4"
+  gravatar: 1
+  twitter: "@calibanatspace"
+  tags: "#prismbreak #android #jee"
+simone-ried:
+  id: 165
+  email: "c423c0b73aeae5ce803dc72d2ee767fc"
+  firstname: "Simone"
+  lastname: "Ried"
+  title: "Marketing, Die Firma GmbH"
+  url: "https://www.xing.com/profiles/Simone_Ried"
+  twitter: "@mo_day"
