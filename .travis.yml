@@ -19,5 +19,5 @@ install:
   - gem install jekyll html-proofer
 
 script:
-  - ./test.sh
+  - ./_test.sh
 
