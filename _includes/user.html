@@ -5,7 +5,7 @@
   <strong>{{ prefix }}{{ user.firstname }} {{ user.lastname }}</strong>
   {% if user.title %}
   <br>
-  <small>{{ user.title }}</small>
+  <small>{{ user.title | xml_escape }}</small>
   {% endif %}
 </{{ hl }}>
 
