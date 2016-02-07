@@ -10,7 +10,7 @@
 </{{ hl }}>
 
 {% if user.url %}<a href="{{ user.url }}">{% endif %}
-  {% if user.has_gravatar != 0 %}
+  {% if user.gravatar %}
   <img src="http://www.gravatar.com/avatar/{{ user.email }}?s=150" alt="{{ user.firstname }} {{ user.lastname }}" class="user">
   {% else %}
   <img src="{{ '/images/user/' | append:include.user | append:'-' | append:user.id }}.jpg" alt="{{ user.firstname }} {{ user.lastname }}" class="user">
