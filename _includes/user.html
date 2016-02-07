@@ -23,7 +23,8 @@
   {% if user.url %}</a>{% endif %}
 
 {% if user.description %}
-{{ user.description|markdownify }}
+{% assign httphost = site.url | append:'/' | prepend:'href="' %}
+{{ user.description|markdownify|replace:'href="/',httphost }}
 {% endif %}
 
 {% if user.tags %}

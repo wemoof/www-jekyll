@@ -48,7 +48,7 @@ markus-tacker-warum-offenbach-einen-webmontag-braucht:
   wemoof: 1
   speaker: markus-tacker
   name: "Warum Offenbach einen Webmontag braucht"
-  description: "In diesem Talk gibt der Initiator des Webmontags Offenbach [Markus Tacker](/user/markus-tacker/1) einen Einblick in die (kurze) Entstehungsgeschichte der Veranstaltung erläutert das Wissenswerte rund um die deutschlandweite Veranstaltungsreihe „[Webmontag](http://webmontag.de/)“."
+  description: "In diesem Talk gibt der Initiator des Webmontags Offenbach [Markus Tacker](/speaker/markus-tacker/1) einen Einblick in die (kurze) Entstehungsgeschichte der Veranstaltung erläutert das Wissenswerte rund um die deutschlandweite Veranstaltungsreihe „[Webmontag](http://webmontag.de/)“."
   url: "https://dl.dropboxusercontent.com/s/gwmft3m33d4p49j/01%20Intro.pdf?token_hash=AAEvoQ5vr0qapnEcU-8aou_-XI6dgIUDkQmaI3bmPfbRxA&dl=1"
   youtube: "http://www.youtube.com/embed/fHV7ur7JUxQ"
 rene-maudrich-der-neue-startup-hub-in-offenbach:
@@ -291,7 +291,7 @@ markus-tacker-offen-ofde:
   speaker: markus-tacker
   name: "OFFEN-OF.DE"
   description: "Was eine Stadt im Innersten zusammenhält, sind ihre Menschen und Geschichten. \r\nDie Wohn- und Arbeitsräume anderer sind uns aber meist ein Geheimnis. An diesem besonderen Wochenende laden wir dazu ein, die Orte kennenzulernen, die sonst private Verborgenheit schützt. Wir machen uns gemeinsam auf den Weg zu spannenden Gastgebern, die uns ihre Welt vorstellen.\r\n\r\n3. und 4. Mai 2014\r\n\r\n\r\n\r\nAnmeldung: Ab sofort, die Teilnahme ist kostenfrei!\r\n\r\n"
-  url: "WWW.OFFEN-OF.DE"
+  url: "http://WWW.OFFEN-OF.DE/"
   type: spotlight
 tim-karsko-die-essenz-von-allen-zum-mitnehmen:
   id: 44
@@ -304,7 +304,7 @@ alexander-schnapper-twitter-relations:
   wemoof: 9
   speaker: alexander-schnapper
   name: "Twitter Relations"
-  description: "Beim SchnitzelFFM hatte ich das [Juergen](https://twitter.com/jke), [Jochen](/user/jochen-bachmann/104) und [Ali](/speaker/ali-pasha-foroughi/105) mal erläutert und gedacht das wäre was für einen Talk (also richtig vorbereitet mit Folien undso).\r\n\r\nEs geht grob beschrieben darum, wie ich Twitter nutzte, und darüber nen Job in FFM fand, Unterkunft, dann zum [SchnitzelFFM](https://twitter.com/hashtag/SchnitzelFFM) kam, zum [wmfra](http://wmfra.de/)/[rheinmainrocks](https://twitter.com/hashtag/rheinmainrocks), zu Beziehungen, Wohnungen, Jobs, etc etc etc..\r\n\r\nTalk soll die Vorteile des Twitter-Netzwerkens hervorheben, die ich ja auch immer noch durchführe und so. (Zu viel wird jetzt nicht verraten)\r\n"
+  description: "Beim SchnitzelFFM hatte ich das [Juergen](https://twitter.com/jke), [Jochen](/speaker/jochen-bachmann/104) und [Ali](/speaker/ali-pasha-foroughi/105) mal erläutert und gedacht das wäre was für einen Talk (also richtig vorbereitet mit Folien undso).\r\n\r\nEs geht grob beschrieben darum, wie ich Twitter nutzte, und darüber nen Job in FFM fand, Unterkunft, dann zum [SchnitzelFFM](https://twitter.com/hashtag/SchnitzelFFM) kam, zum [wmfra](http://wmfra.de/)/[rheinmainrocks](https://twitter.com/hashtag/rheinmainrocks), zu Beziehungen, Wohnungen, Jobs, etc etc etc..\r\n\r\nTalk soll die Vorteile des Twitter-Netzwerkens hervorheben, die ich ja auch immer noch durchführe und so. (Zu viel wird jetzt nicht verraten)\r\n"
 ali-pasha-foroughi-drei-antipatterns-um-der-berwachung-zu-entkommen:
   id: 46
   wemoof: 7

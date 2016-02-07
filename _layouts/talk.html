@@ -29,7 +29,8 @@
     <div class="fb-like" data-href="{{ share_url }}" data-send="false" data-layout="button_count" data-width="450" data-show-faces="false" data-font="tahoma" data-action="recommend"></div>
     
     {% if talk.description %}
-    {{ talk.description|markdownify }}
+    {% assign httphost = site.url | append:'/' | prepend:'href="' %}
+    {{ talk.description|markdownify|replace:'href="/',httphost }}
     {% endif %}
 
     {% if talk.url %}
