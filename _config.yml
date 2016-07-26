@@ -1,5 +1,5 @@
 title: WEMO♥F | Webmontag Offenbach
-email: m+wemoof@cto.hiv
+email: m+wemoof@coderbyheart.com
 description: > # Der Webmontag Offenbach ist eine informelle, nicht-kommerzielle und von der Community organisierte 
   Veranstaltung, die Menschen zusammen bringt, die sich für das Web begeistern, Teil davon sind oder es werden wollen.
 baseurl: ""
@@ -8,7 +8,7 @@ twitter_username: wemoof
 twitter_hashtag: wemoof
 github_username:  wemoof
 author: Markus Tacker
-author_url: https://cto.hiv/
+author_url: https://coderbyheart.com/
 
 # Build settings
 markdown: kramdown
