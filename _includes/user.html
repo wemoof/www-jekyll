@@ -18,7 +18,7 @@
   {% else %}
   {% assign photo = '/images/user/' | append:include.user | append:'-' | append:user.id | append:'.jpg' %}
   {% endif %}
-  <img src="{{ photo }}" alt="{{ user.firstname }} {{ user.lastname }}" class="user">
+  <img src="{{ photo | prepend: site.baseurl }}" alt="{{ user.firstname }} {{ user.lastname }}" class="user">
   {% endif %}
   {% if user.url %}</a>{% endif %}
 
